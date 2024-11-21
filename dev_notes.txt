@@ -1,0 +1,19 @@
+An e-commerce site is a wesbite that facilitates the buying and selling of products or services online.
+    - Looing at wesbite ringside.com homepage
+        - Saved weboage
+
+Pseudocode Section:
+    - Input minimum html structure to get started
+    - Add 'img' tag for logo, put in a 'div' tag and placement on page is top-left
+    - Add 'img' tag for shopping cart logo(See if thiers any built-in shopping cart options), placement is top-right
+    - Add a 'navbar'
+    - Add a grid of images and descriptions
+        - will need to use grid css options
+            - create .css file
+    - Add a copyright Section
+        - need ing tag and logo
+
+Development:
+    - Created files:
+        - homepage.html, layout.css and main.js
+    - Created directory images
