@@ -17,3 +17,5 @@ Development:
     - Created files:
         - homepage.html, layout.css and main.js
     - Created directory images
+
+    - Creating html structure along with css styling
