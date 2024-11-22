@@ -9,11 +9,18 @@ body{
     grid-template-rows: repeat(1, 1fr);
 }
 
+#shop_cart{
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
 #artwork{
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
     grid-gap: 10px;
     grid-template-rows: repeat(2, 1fr); /* Create 3 rows */
+    font-size: 20px;
 
 }
 
@@ -21,7 +28,14 @@ body{
     width: 120px; /* Size of logo */
 }
 
+#cart{
+    width: 30px; /* Size of cart */
+}
+
+
 .grid_child{
+    display: flex;
+    flex-direction: column;
     border: solid black .5px;
     padding: 5px;
 }
@@ -31,5 +45,15 @@ img{
     height: 90%;
     align-self: stretch;
     justify-self: stretch;
+    object-fit: cover;  /* Ensures img fits */
 }
 
+/* target nested p tags */
+#artwork p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+
+}
