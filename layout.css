@@ -17,11 +17,12 @@ body{
 
 #artwork{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
+    grid-template-columns: repeat(3, 1fr);  /*Create 3 columns */
     grid-gap: 10px;
-    grid-template-rows: repeat(2, 1fr); /* Create 3 rows */
+    grid-template-rows: repeat(2, 1fr);  /*Create 3 rows */
     font-size: 20px;
-
+    width: 60%;
+    height: 100vh;
 }
 
 #hanky_swim{
